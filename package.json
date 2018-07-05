@@ -1,0 +1,21 @@
+{
+  "name": "pintifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "erik@hedberg.at",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "node-fetch": "^2.1.2",
+    "prettier": "^1.13.7"
+  }
+}
